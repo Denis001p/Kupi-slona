@@ -1,6 +1,7 @@
 from flask import Flask, request
 import logging
 import json
+import os
 
 # создаём приложение
 # мы передаём __name__, в нем содержится информация,
